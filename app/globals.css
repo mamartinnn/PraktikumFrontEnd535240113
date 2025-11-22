@@ -40,3 +40,82 @@ a {
     color-scheme: dark;
   }
 }
+
+#contact {
+  background: url(/images/antony.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center ;
+}
+
+#footer ul li a{
+  color: #262626;
+  font-weight:500;
+  text-decoration: none;
+}
+#footer ul li a:hover{
+  text-decoration: underline;
+}
+
+.custom-nav-links .nav-link {
+    font-size: 25px ; 
+     
+}
+
+
+.custom-nav-links .dropdown-item {
+    font-size: 25px ; 
+}
+
+.shift-left{
+  margin-top: 10px;
+  margin-right: 20px ;
+}
+
+.search-input {
+    width: 400px !important;
+}
+
+
+
+@keyframes scrollRight {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        
+        transform: translateX(-50%); 
+    }
+}
+
+
+.scrolling-container {
+    overflow: hidden; 
+    user-select: none;
+}
+
+
+.scrolling-track-wrapper {
+    margin: 20px 0;
+}
+
+.scrolling-track {
+    display: flex;
+    width: fit-content; 
+        animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+.card-column {
+   
+    flex-shrink: 0; 
+    width: 300px; 
+    padding: 0 10px; 
+}
+
+
+.scroll-right {
+    animation-name: scrollRight;
+    animation-duration: 60s; 
+}
